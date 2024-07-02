@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>something unique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main__container">
+      <section class="profile__section">
+        <div class="img__container">
+          <img
+            src="./assets/slackProfileImage.jpg"
+            alt="Slack Profile"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+        <div class="info__container">
+          <div>
+            <h4 class="sub__heading">Hello, I am</h4>
+            <span class="profile__name">Liasu Aanuoluwapo</span>
+            <p>
+              and
+              <span class="slack__name" data-testid="slackDisplayName">
+                something unique
+              </span>
+              on the slack channel
+            </p>
+            <i class="fa-solid fa-envelope fa-lg"> </i>
+            <a href="mailto:liasu.olabayo@gmail.com">
+              <span data-testid="slackEmail">liasu.olabayo@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content__section">
+        <h2 class="sub__heading">MY GOALS</h2>
+        <p>
+          As a backend engineering student, I have gained a solid understanding
+          of server-side technologies. Now, I'm eager and ready to expand my
+          expertise by learning frontend development.
+        </p>
+        <p>
+          Over the next two years, my goal is to transition into a full-stack
+          engineer role, where I can combine my backend knowledge with new
+          frontend technologies like HTML, CSS, JavaScript, and React. This
+          integration will allow me to build seamless, end-to-end solutions and
+          potentially lead development projects.
+        </p>
+        <p>
+          Do you know that you can improve your career or skill at
+          <a href="https://hng.tech/learn" target="_blank" data-testid="hngLink"
+            >HNG Learn</a
+          >, discover SEO tools at
+          <a
+            href="https://keyword.dog"
+            target="_parent"
+            data-testid="keywordLink"
+            >Keyword Dog</a
+          >
+          and learn about web scraping at
+          <a
+            href="https://scrapeanyweb.site"
+            target="_blank"
+            data-testid="scrapeanywebLink"
+            >Scrape Any Web </a
+          >?
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>
+          Today is
+          <span class="white" id="currentDay" data-testid="currentDay"></span>
+          and the current Time in UTC:
+          <span class="white" id="utcTime" data-testid="currentTimeUTC"></span>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
